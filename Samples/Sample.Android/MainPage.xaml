@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sample.Forms.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <WebView x:Name="webView" IsVisible="true" Navigating="WebView_Navigating_1" HeightRequest="1000"  WidthRequest="1000" Source="" />
+            <Button x:Name="buttonConnect" Clicked="ButtonConnect_Clicked" Text="Повторить попытку подключения..." />
+        </StackLayout>
+    </ContentPage.Content>
+    <!--<WebView Source="" />-->
+</ContentPage>
